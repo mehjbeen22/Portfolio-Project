@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;200&family=Crimson+Text&family=EB+Garamond&family=Kalam:wght@300&family=Libre+Baskerville&family=Mate&family=Merriweather:wght@900&family=Poltawski+Nowy&family=Red+Hat+Display:wght@300&family=Rubik:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Color Variables */
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color: #f1f1f1;
+    --primary-text-color: #000000;
+    --secondary-text-color: #757575;
+    --tertiary-color: #009688;
+    --last-background-color: #616161;
+    --bgc-grey-color: #9e9e9e;
+}
+
+/* css reset */
+* {
+    font-family: 'Bitter', serif;
+    font-family: 'Crimson Text', serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Kalam', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Mate', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Poltawski Nowy', serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Rubik', sans-serif;
+
+    line-height: 1.5;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.flex {
+    display: flex;
+}
+
+.cover{
+    margin-inline: 13px;
+}
+
+/* Css Editing  LEFT CANTAINER */
+.body-cantainer {
+    /* border: 3px solid #000; */
+    height: 100%;
+    width: 100%;
+
+}
+
+.left-div {
+    /* background-color: lightskyblue; */
+    background-color: var(--primary-color);
+    border: 2px solid red;
+    height: 80rem;
+    flex-basis: 25%;
+}
+
+.left-cantainer {
+    /* background-color: pink; */
+    margin: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.right-main-cantainer {
+    /* background-color: lightgreen; */
+    /* height: 400px; */
+    flex-basis: 80%;
+}
+
+
+.logo-box {
+    /* border: 2px solid black; */
+    height: 2rem;
+    margin: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-image {
+    height: 1.1rem;
+}
+
+#window-logo {
+    width: 25px;
+}
+
+#about-logo {
+    width: 25px;
+}
+
+#contact-logo {
+    width: 25px;
+}
+
+.left-cantainer h2 {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    margin-left: 2px;
+}
+
+
+.avatar {
+    height: 8rem;
+    border-radius: 5px;
+}
+
+.left-cantainer h1 {
+    font-size: 1.4rem;
+    margin-top: 2.2rem;
+}
+
+.left-cantainer p {
+    margin-top: 0.5rem;
+}
+
+.left-items{
+    width: 15.5rem;
+    margin-block: 10px;
+    /* border: 2px solid  green; */
+}
+
+.left-items p {
+    font-size: 1rem;
+    margin-left: 21px;
+    margin-top: 10px;
+    font-family: Raleway, sans-serif;
+}
+
+.left-items:hover{
+    background-color: #C0C0C0;
+}
+
+#window-green {
+    color: var(--tertiary-color);
+}
+
+/*  SOCIAL MEDIA LOGOS BLOCK */
+.social-media-logo{
+    margin-top: 22px;
+}
+.social-ml {
+    margin-block: 12px;
+    margin-left: 2px;
+    /* border:2px solid #463999; */
+}
+
+.media-logo {
+    height: 20px;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+
+.social-ml:hover{
+    opacity: 0.6;
+}
+
+/* ------------------------ NAVBAR STYLING --------------------------------------- */ 
+
+.right-main-cantainer{
+    background-color: var(--secondary-color);
+}
+
+.navbar{
+    height:9rem;
+
+}
+.navbar h1{
+    margin-top:0px;
+    font-size: 3rem;
+    margin-inline: 10px ;
+
+}
+
+.nav-list{
+    /* border: 2px solid darkolivegreen; */
+    margin-top: 10px;
+    border-bottom: 7px solid #C0C0C0;
+    padding: 10px;
+}
+
+.nav-list-item{
+    /* border: 2px solid lightcoral; */
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    margin-left: 5px;
+    background-color: var(--primary-color);
+    width: 6rem;
+    border-radius: 2px;
+}
+.nav-list-item:hover{
+    background-color:	#C0C0C0;
+}
+
+.nav-list-img{
+    height: 15px;
+    margin-right: 10px;
+}
+
+.nav-list-item a{
+    font-size: 1.1rem;
+}
+
+#Filter-btn{
+    width: 4rem; 
+    background-color: var(--secondary-color);   
+}
+
+#All-btn{
+    width: 3.6rem;
+    text-align: center;
+    background-color: var(--primary-text-color);
+    color: white;
+}
+
+
+
+#All-btn:hover{
+    background-color:#C0C0C0;
+    color: black;
+}
+
+/* --------------------------------- FIRST GRID CONTAINER---------------------------------------------------- */
+
+.grid-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* background-color: aqua; */
+    height: 47rem;
+    gap: 15px;
+    /* margin-top: 20px; */
+    margin-block: 20px;
+    padding: 5px;
+}
+.grid-item{
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.grid-image{
+    height: 14rem;
+}
+
+.grid-image-2{
+    height: 15.7rem;
+}
+:hover
+.grid-image:hover{
+    opacity: 0.5;
+}
+
+.grid-image-2:hover{
+    opacity: 0.6;
+}
+
+.grid-content{
+    /* border: 2px solid red; */
+    margin-inline: 6px;
+}
+
+.grid-content p{
+    margin-top: 10px;
+}
+
+/* ------------------------------------- PAGINATION BLOCK ------------------------------------------ */
+
+.pagination{
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid yellow; */
+    margin-bottom: 3rem;
+}
+
+.page-button{
+    padding: 12px;
+    height: 2.4rem;
+}
+
+.page-button:hover{
+    color: var(--primary-color);     
+}
+.page-button p{
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.page-button:hover{
+    background-color: var(--primary-text-color);
+}   
+
+#pg-btn-1{
+    background-color: var(--primary-text-color) ;
+    color: var(--primary-color);
+}
+
+
+#pg-btn-1:hover{
+    background-color: #C0C0C0 ;
+    color: var(--primary-text-color);
+}
+
+
+
+
+/* <!-- ------------------------------------- SECOND CANTAINER---------------------------- --> */
+
+.image-cantainer{
+    /* border: 2px solid green; */
+    height: 20rem;
+}
+
+#left-image{
+    margin-right: 20px;
+}
+
+#right-image{
+    width: 50%;
+}
+
+.text-content{
+    height: 10rem;
+    border: 2px dashed red;
+    margin-block: 3rem;
+}
+
+.text-content h2{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
