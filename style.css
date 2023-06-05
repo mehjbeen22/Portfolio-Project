@@ -59,6 +59,9 @@ a {
 
 }
 
+
+/* ........................................  LEFT CANTAINER ............................................... */
+
 .left-div {
     /* background-color: lightskyblue; */
     background-color: var(--primary-color);
@@ -74,13 +77,6 @@ a {
     top: 0;
     left: 0;
 }
-
-.right-main-cantainer {
-    /* background-color: lightgreen; */
-    /* height: 400px; */
-    flex-basis: 80%;
-}
-
 
 .logo-box {
     /* border: 2px solid black; */
@@ -168,11 +164,14 @@ a {
     opacity: 0.6;
 }
 
-/* ------------------------ NAVBAR STYLING --------------------------------------- */ 
+/* ------------------------ RIGHT CANTAINER --------------------------------------- */ 
 
-.right-main-cantainer{
+.right-main-cantainer {
+    flex-basis: 80%;
     background-color: var(--secondary-color);
+    height: 500vh;
 }
+
 
 .navbar{
     height:9rem;
@@ -334,8 +333,8 @@ a {
 
 .text-content{
     height: 10rem;
-    border: 2px dashed red;
-    margin-block: 3rem;
+    /* border: 2px dashed red; */
+    margin-block: 2rem;
 }
 
 .text-content h2{
@@ -343,9 +342,101 @@ a {
     margin-bottom: 1rem;
 }
 
+/* ----------------------------------- TECHNICAL SKILL CONTAINER ---------------------------------------------- */
+
+.technical-skill{
+    border: 2px dotted green;
+    height: 25rem;
+}
+
+.technical-skill h2{
+    margin-bottom: 17px ;
+}
+
+.technical-skill p{
+    margin-bottom: 17px ;
+    font-family: Raleway, sans-serif;
+    letter-spacing: 1px;
+}
+
+.bar-box{
+    height: 2.4rem;
+    margin-block: 10px;
+}
 
 
+#graph-1{
+    background-color: var(--last-background-color);
+    flex-basis: 95%;
+    text-align: center;
+    color: var(--primary-color);
+    line-height: 35px;
+}
 
 
+#graph-2{
+    background-color: var(--bgc-grey-color);
+    flex-basis:5% ;
+}
 
 
+#graph-3{
+    background-color: var(--last-background-color);
+    flex-basis: 85%;
+    text-align: center;
+    color: var(--primary-color);
+    line-height: 35px;
+}
+
+
+#graph-4{
+    background-color: var(--bgc-grey-color);
+    flex-basis:15% ;
+}
+
+
+#graph-5{
+    background-color: var(--last-background-color);
+    flex-basis: 80%;
+    text-align: center;
+    color: var(--primary-color);
+    line-height: 35px;
+}
+
+
+#graph-6{
+    background-color: var(--bgc-grey-color);
+    flex-basis:20% ;
+}
+
+/* ------------ DOWNLOAD BUTTON ------------- */
+
+.download-btn{
+    background-color:var(--last-background-color);
+    border-radius: 3px;
+    width: 20%;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+.download-btn img{
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.download-btn p{
+    margin-top: 17px;
+    color: var(--primary-color);
+}
+
+.download-btn:hover{
+    background-color: #C0C0C0;
+    color: var(--primary-text-color);
+}
+
+.download-btn p:hover{
+    color: var(--primary-text-color);
+}
